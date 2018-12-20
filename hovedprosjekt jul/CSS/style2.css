@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Futura;
+
+
+
+}
+
+*{
+    margin: 0;
+}
+#bildeheader{
+    height: 40%;
+    width: 40%;
+}
+
+#tekstheader a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#tekstheader {
+    font-size: 100px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+header {
+    background-color: #0d99a5;
+    border-bottom: 2px solid black;
+}
+
+#headerlogo {
+    display: grid;
+    grid-template-columns:1fr 2fr;
+}
+
+main {
+    padding: 20px;
+    min-height: 450px;
+}
+
+#bartilside {
+    display: grid;
+    grid-template-columns:1fr;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+
+}
+#bartilside ul {
+    list-style-type: none;
+
+}
+
+#barenav a {
+    text-align:center;
+    text-decoration: none;
+    color: #0d99a5;
+
+}
+
+footer  {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 2px solid black;
+}
+
+#hustilsalgs {
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main a {
+    text-decoration: none;
+    color: #0d99a5;
+
+}
+
+main img {
+    max-height: 150px;
+}
+
+#takontakt {
+    padding-top: 20px;
+}
+
+
+
+
+

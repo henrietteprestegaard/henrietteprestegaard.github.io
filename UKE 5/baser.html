@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAknhnG__IMbshnXVG-K9iGW8McmUVyjDk",
+    authDomain: "it01-3dc17.firebaseapp.com",
+    databaseURL: "https://it01-3dc17.firebaseio.com",
+    projectId: "it01-3dc17",
+    storageBucket: "it01-3dc17.appspot.com",
+    messagingSenderId: "675345474880"
+  };
+  firebase.initializeApp(config);
+</script>
+
+    <script>
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste")
+      kontaktliste.push(
+      {"ID":{
+        "navn": "Henriette Prestegård",
+        "adresse": "Bakerovnsgrenda 56",
+        "alder" : "18",
+        "skole" : "Sandvika vgs"
+          }
+        }
+      )
+
+    </script>
+
+  </body>
+</html>

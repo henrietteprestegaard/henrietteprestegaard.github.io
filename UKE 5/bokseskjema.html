@@ -75,10 +75,11 @@
 
     </script>
 
-    // Funksjone som viser frem en kontakt
-    // snap er et snapshot av dataene til kontakten i det øyeblikket den blir lagt til
-    function visKontakt(snap)
+    <!-- Funksjone som viser frem en kontakt
+     snap er et snapshot av dataene til kontakten i det øyeblikket den blir lagt til -->
+
 <script>
+    function visKontakt(snap)
     {
         const telefon = snap.key; // Primær-nøkkelen
         const kontakt = snap.val(); // Dataene til kontakten
